@@ -1,0 +1,17 @@
+.P1 {
+    color: yellow;
+}
+
+.P2 {
+    color: green;
+}
+
+#P1 {
+    font-size: 16px;
+    font-family: cursive;
+}
+
+#P2 {
+    font-size: 12px;
+    font-family: fantasy;
+}
