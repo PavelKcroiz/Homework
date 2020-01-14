@@ -1,0 +1,33 @@
+#wrapper{
+    width: 800px;
+    height: 800px;
+    border: 4px double black;
+    border-style: solid;
+}
+
+#first{
+    width: 400px;
+    height: 400px;
+    background: red;
+    position: absolute;
+}
+
+#second{
+    width: 400px; 
+    height: 400px;
+    background-color: green;
+    position: relative;
+    left: 400px; 
+    top: 400px; 
+    
+}
+
+#third{
+    width: 400px; 
+    height: 400px;
+    background: yellow;
+    position: absolute;
+    left: 200px; 
+    top: 200px; 
+   
+}

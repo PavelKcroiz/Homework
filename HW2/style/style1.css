@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-spacing: 5px;
+    table-layout: fixed;
+    height: 99vh;
+  }
+  #color1{
+      background-color: rgb(60,150,75);
+     height: 14vh;
+  }
+  #color2{
+      background-color:rgb(75, 60, 150);
+      height: 31vh;
+  }
+  #color3{
+      background-color:rgb(150,60,75);
+      height: 24vh;
+  }
+  #color4{
+      background-color: rgb(75,15,60);
+      height: 19vh;
+  }
+tr {
+    text-align: center;
+}
+ 

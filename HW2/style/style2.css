@@ -1,0 +1,40 @@
+div {
+    text-align: center;
+    margin-left: 3px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.header {
+    height: 16vh;
+    width: 49.5%;
+    background-color: rgb(60,150,75);
+    display: inline-block;
+    
+}
+
+
+
+.body{
+    width: 100%;
+    height: 34vh;
+    background-color: rgb(75, 60, 150);
+    margin-top: 3px;
+    
+}
+
+.content{
+    display: inline-block;
+    width: 32.8%;
+    height: 28vh;
+    margin-top: 3px;
+  background-color: rgb(150,60,75);
+}
+
+.footer{
+display : inline-block;
+width : 24.22vw;
+height: 19vh;
+margin-top: 3px;
+background: rgb(75,15,60);
+}
