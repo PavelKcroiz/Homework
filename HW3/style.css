@@ -144,6 +144,8 @@ body{
 	color:#c0301c;
 	border: 2px solid #dddddd;
 	border-radius: 50%;
+	width:86px ;
+	height: 86px;
 }
 
 .cont2 .cards div .descr1 {
@@ -250,9 +252,6 @@ body{
 	background-color: rgb(228, 56, 37);
 	height: 100%;
 	position: relative;
-}
-.cont4 .galery .button .textimg {
-	position: absolute;
 	top: 80px;
 	left: 120px;
 	color: #fff;
@@ -261,10 +260,6 @@ body{
 .cont4 .galery .button img:hover {
 	opacity: 0.35;
 	
-}
-
-.cont4 .galery .button a:hover{
-	cursor: pointer;
 }
 
 .cont4 .galery .button .textimg .t1{
