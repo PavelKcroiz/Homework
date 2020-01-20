@@ -263,6 +263,10 @@ body{
 	background-color: #c0301c;
 }
 
+.cont4 .galery .card img{
+	width: 100%;
+}
+
 .cont4 .galery .card:hover img{
 	opacity: 0.5;
 }
@@ -413,22 +417,27 @@ body{
 	.cont4 .galery div {
 		width: 45%;
 	}
-
+		
 	.cont5 .center {
 		padding-top: 80px;
 	}
 
 	.cont3 .about .text div {
 		width: 80%;
+		margin-top: 5vh;
+	}
+	.cont3 {
+		padding-bottom: 5vh;
 	}
 }
 	
 @media (max-width:550px) {
 	.cont2 .cards div {
 		width: 100%;
+		margin-top: 5vh;
 	}
 	.cont4 .galery div {
-		width: 70%;
+		width: 85%;
 	}
 }
 	
@@ -444,6 +453,13 @@ body{
 	.cont6 .text6 {
 		padding-left: 10px;
     	padding-right: 10px;
+	}
+	.cont7 {
+		padding-top: 50px;
+	}
+
+	.cont7 .copy {
+		padding-bottom: 50px;
 	}
 }
 	
