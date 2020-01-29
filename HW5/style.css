@@ -159,7 +159,13 @@ header .logo {
 	position: absolute;
 	left: 45%;
 	top: 14%;
+	opacity: 0;
 }
+
+.container3 .cards .item:hover .hover {
+	opacity: 1;
+}
+
 
 .container3 h2 {
 	font-family: 'Ubuntu', sans-serif;
@@ -256,6 +262,10 @@ header .logo {
 	padding: 26px 50px;
 	background-color: #ffffff;
 	border-radius: 32px;
+}
+
+.container6 .cards a:hover {
+	background-color: #c89d28;
 }
 
 .container6 .first {
