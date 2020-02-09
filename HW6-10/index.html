@@ -18,7 +18,12 @@
            <div class="logo">
                <span><img src="./img/main_logo.png" alt="logo"></span>
            </div>
-           <div class="menu">
+           <span class="burger" id="burger">
+            <i></i>
+            <i></i>
+            <i></i>
+           </span>
+           <div class="menu"  id="menu">
                <ul>
                    <li><a href="#">About</a></li>
                    <li><a href="#">Services</a></li>
@@ -29,6 +34,8 @@
                    </li>
                </ul>
            </div>
+           
+           
        </header>
 
        <section class="container2">
@@ -50,18 +57,20 @@
                 work!
                 </p>
                 <div class="cards">
-                    <div class="item">
+                    <div class="item item1">
                         <img src="./img/img1.png" alt="item">
                         <h3>User Experience</h3>
                         <p class="descr">Update your online business experience to 2017<br> standards. Encrease your earnings.</p>
                     </div>
                     <div class="item">
-                        <img src="./img/img2.png" alt="item">
+                       <div class="item2">
                         <img class="hover" src="./img/hover.png">
+                        </div>
                         <h3>Social Media</h3>
                         <p class="descr">Add as many language packs as you want, to<br> showcase your website across the entire globe.</p>
+                        
                     </div>
-                    <div class="item">
+                    <div class="item item3">
                         <img src="./img/img3.png" alt="item">
                         <h3>Branding</h3>
                         <p class="descr">Add as many language packs as you want, to<br> showcase your website across the entire globe.</p>
@@ -127,10 +136,10 @@
        <section class="container5">
            <div class="container-fluid">
                <div class="row">
-                    <div class="left_content wow slideInLeft col-xl-7 col-lg-7 col-md-6 col-sm-12" data-wow-duration="3s" wow-delay="2s">
+                    <div class="left_content wow slideInLeft col-xl-7 col-lg-6 col-md-6 col-sm-12" data-wow-duration="3s" wow-delay="2s">
                         <img src="./img/image8.png" alt="img8">
                     </div>
-                   <div class="right_content wow slideInRight col-xl-4 col-lg-5  col-md-4 col-sm-12" data-wow-duration="3s">
+                   <div class="right_content wow slideInRight col-xl-3 col-lg-3  col-md-3 col-sm-10 col-8" data-wow-duration="3s">
                         <h3>Projects</h3>
                         <p class="right_txt ">Starting a Creative Firm in the
                             Age of Digital Marketing.</p>
@@ -155,8 +164,8 @@
                                 <p class="txt">Setup pages and content like a PRO. Coding is not required and a handy documentation is included.</p>
                                 </div>
                             </div>
-                            <a href="#">VIEW MORE</a>
                    </div>
+                   <a href="#">VIEW MORE</a>
                </div>
            </div>
        </section>
@@ -381,7 +390,7 @@
                     <h4>COMPANY</h4>
                     <ol>
                         <li>About Us</li>
-                        <li>Knowledgt base</li>
+                        <li>Knowledge base</li>
                         <li>Story</li>
                         <li>Terms</li>
                         <li>Contact Us</li>
@@ -409,6 +418,7 @@
     <script>
     new WOW().init();
     </script>
+    <script src="./js/script.js"></script>
 
 
 
