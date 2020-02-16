@@ -98,6 +98,10 @@ header .btn a {
 	border-radius: 30px;
 }
 
+header .btn a:hover {
+	background-color: #c99f2c;
+}
+
 header .logo {
 	margin-top: 70px;
 	margin-left: 2.5%;
@@ -138,6 +142,10 @@ header .logo {
 	background-color: #ffffff;
 	border-radius: 32px;
 	margin-left: 8%;
+}
+
+.container2 .heading a:hover {
+	background-color: #c99f2c;
 }
 
 .center {
@@ -398,6 +406,10 @@ header .logo {
 	margin-left: 60%;
 }
 
+.container5 a:hover {
+	background-color: #c99f2c;
+}
+
 
 
 
@@ -582,7 +594,7 @@ header .logo {
 	font-size: 11px;
 	background-color:  transparent;
 	margin: 0;
-	color: #b28c27
+	color: #b28c27;
 }
 
 .container7 #read {
@@ -595,6 +607,10 @@ header .logo {
 	background-color: #ffffff;
 	border-radius: 35px;
 	margin-left: calc(50% - 150px);
+}
+
+.container7 #read:hover {
+	background-color: #8d7431;
 }
 
 
@@ -823,6 +839,10 @@ header .logo {
 	border-radius: 30px;
 }
 
+.container11 a:hover {
+	background-color: #b28c27;
+}
+
 
 
 
@@ -862,6 +882,10 @@ footer .right_content li {
 	cursor: pointer;
 }
 
+footer .right_content li:hover {
+	text-decoration: underline;
+}
+
 footer .right_content {
 	min-width: 100px;
 }
@@ -894,9 +918,6 @@ footer #PK {
 	font-size: 11px;
 	color: #8d7431;
 }
-
-
-
 
 
 
