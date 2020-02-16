@@ -1,0 +1,141 @@
+/*
+
+	Author: Nemets Yury;
+	Site: www.sitehere.ru;
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,900&subset=latin,cyrillic);
+
+body{
+  font:normal 100% 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  color:#798289;
+}
+
+.content {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#container {
+   position:relative;
+}
+#header {
+   background:#222;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:70px;   /* Высота блока "footer" */
+}
+
+#stats {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  background: #f8f8f8;
+  border-top: 4px solid #c3c3c3;
+  border-bottom: 4px solid #c3c3c3;
+}
+
+#stats .row {
+  display: block;
+}
+
+.circle-container {
+  display: block;
+  float: left;
+  margin-bottom: 45px;
+  width:33.333%;
+}
+
+.circle-container h3 {
+  display: block;
+  text-align: center;
+  font-size: 2.25em;
+  line-height: 1.4em;
+  color: #363636;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.circlestat {
+  margin: 0 auto;
+}
+
+/*######Стили для демо###########*/
+.refreshBlock {
+  text-align: center;
+}
+
+a.refreshButton {
+  background: #01BC78;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a.refreshButton:hover {
+  background: #01A066;
+}
+
+h1.title {
+  color:#f8f8f8;
+  font-size: 60px;
+  line-height: 80px;
+  margin:20px auto;
+  width: 70%;
+  text-align: center;
+}
+
+h1.title span {
+  display: block;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+p.info {
+  width: 30%;
+  background: #fff;
+  text-align: center;
+  line-height: 30px;
+  color: #57565B;
+  margin:30px auto 50px;
+}
+
+
+/*Кнопка "К статье"*/
+.backToSitehereBtn{
+  display: block;
+  width: 150px;
+  height: 150px;
+  background: #01BC78;
+  text-align: center;
+  line-height: 170px;
+  font-size: 20px;
+  border-radius: 50%;
+  color:#fff;
+  position: absolute;
+  text-decoration: none;
+  top:-40px;
+  left:-40px;
+  transform:rotate(-45deg) scale(1);
+  transition:all 0.25s linear;
+}
+
+.backToSitehereBtn:hover {
+  text-decoration: none;
+  top:-10px;
+  left:-10px;
+  transform:rotate(-45deg) scale(1.3);
+}

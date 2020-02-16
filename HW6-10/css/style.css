@@ -976,7 +976,7 @@ footer #PK {
 	.container3 .cards .descr {
 		margin-bottom: 25px;
 	}
-	.container4{
+	.container4 {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(5, 1fr);
 	}
@@ -1160,4 +1160,4 @@ footer #PK {
 	.container9 .center .facts p {
 		margin-bottom: 8%;
 	}
-}
+}}
